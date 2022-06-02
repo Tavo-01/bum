@@ -1,8 +1,8 @@
 /*
- * Grupo        :
- * Alumno       :
- * Numero Exp   :
- * Fecha
+ * Grupo        : GDAM21
+ * Alumno       : Gustavo
+ * Numero Exp   : 7256
+ * Fecha        : 02/06/2022
  */
 
 
