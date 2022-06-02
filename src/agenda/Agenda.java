@@ -44,6 +44,8 @@ public class Agenda {
 
     public Contacto buscarContacto(String email) { 
         Contacto contacto = null;
+        if (email=="") { return null;	
+        }
         if (!contactos.containsKey(email)) {
 
             return null;
