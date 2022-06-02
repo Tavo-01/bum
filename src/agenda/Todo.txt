@@ -1,0 +1,53 @@
+/*      24/5/2022
+*       TODO LIST ******************* MAIN
+*       1.- Crear método que genere una salida formateada de
+*           los contactos en la agenda
+*            AGENDA: <Nombre>      Num.contactos:<n>
+*            EMAIL               TELEFONO        NOMBRE
+*           -------------------------------------------
+*
+*/
+/*
+    public static void ListaAgenda(Agenda a){
+    
+        ArrayList<Contacto> Listado = new ArrayList<>();
+        Listado = a.getContactos();
+        System.out.print("AGENDA: ");
+        System.out.print(a.getnombreAgenda(a));
+        System.out.println("\t\tNum.Contactos:"+Listado.size());
+        System.out.format("%-24s%-15s%-15s\n", "eMail","Teléfono","Nombre");
+        System.out.println("-----------------------------------------------------");
+        for (Contacto c : Listado){
+            System.out.format("%-24s%-15s%-15s\n",c.getEmail(),c.getTelefono(),c.getNombre());
+        }
+        System.out.println("-----------------------------------------------------");
+    }
+    
+    */
+/*
+**      TODO LIST ******************* AGENDA
+*  1.-  Nueva propiedad count
+*       Crear propiedad y métodos para que
+        se pueda asignar un nombre a la agenda
+*  2.-  Implementar método que nos devuelva el total de contactos
+*       en la agenda.
+*  3.-  Documentar los 4 métodos de Agenda
+*/
+    /*
+    private static String nombreAgenda="";
+
+    public String getnombreAgenda(Agenda a){
+            return this.nombreAgenda;
+    }
+    public void setnombreAgenda(String name){
+            this.nombreAgenda=name;
+    }
+
+    public Agenda(String name){
+    
+        if (name != ""){
+            this.nombreAgenda = name;
+        }
+        else this.nombreAgenda ="Untitled";
+    }
+  */
