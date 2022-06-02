@@ -26,16 +26,17 @@ public class Main {
         System.out.println("Practica5.- Pruebas Junit");
         Agenda Lista = new Agenda();
         Contacto contacto1 = new Contacto("email_1","555 555 551","empleado_1");
-        Contacto contacto2 = new Contacto("rmsces2122@gmail.com","555 555 552","Ramón");
+        Contacto contacto2 = new Contacto("rmsces2122@gmail.com","555 555 552","RamÃ³n");
+        Contacto contacto3 = new Contacto("ramona@gmail.com","666 555 552","Ramona");
         //Contacto contacto2 = new Contacto(null,null,null);
-        System.out.println("-- Añadiendo los contactos ---");
+        System.out.println("-- AÃ±adiendo los contactos ---");
             try {
                 c1=Lista.addContacto(contacto1);
                 c2=Lista.addContacto(contacto2);
             } catch (ContactoRepetidoException ex) {
                  System.out.println(ex); 
             }
-        System.out.println("-- Listando los contactos añadidos ---");
+        System.out.println("-- Listando los contactos aÃ±adidos ---");
            System.out.println(Lista.getContactos().toString());
            //ListaAgenda(Lista);
         System.out.println("-- Eliminando contacto con email_1 ...");
